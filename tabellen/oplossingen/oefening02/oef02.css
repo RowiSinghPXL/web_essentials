@@ -1,0 +1,35 @@
+table{
+    background: url("../assets/witte-marmer.jpg");
+    border-collapse: collapse;
+    border: 5px solid darkred;
+    display: inline-block;
+}
+
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd){
+    background: url("../assets/zwarte-marmer.jpg");
+}
+
+
+td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid darkred;
+    text-align: center;
+}
+
+aside{
+
+    float: right;
+    border: 5px solid darkred;
+    height: 350px;
+    width: 200px;
+    margin-right: 55%;
+    padding: 1%;
+    padding-top: 0;
+    background: url("../assets/witte-marmer.jpg");
+}
+
+body{
+    background: url("../assets/hout.jpg");
+}
+

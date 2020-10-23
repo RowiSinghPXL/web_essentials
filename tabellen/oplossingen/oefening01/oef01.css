@@ -1,0 +1,30 @@
+thead, tfoot{
+    background: #27426d;
+
+}
+
+tbody > tr:nth-child(odd){
+    background: #4f8cef;
+}
+tbody > tr:nth-child(even){
+    background: #6facff;
+}
+
+tbody > tr > td {
+    width: 200px;
+}
+table{
+    border-collapse: collapse;
+    color: white;
+    font-family: "Roboto Light", Arial;
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+body{
+    background: #c7ced8;
+}
+

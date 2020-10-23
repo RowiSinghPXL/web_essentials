@@ -1,0 +1,35 @@
+table,tr,td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+
+table tr:first-child td:first-child{
+    background-color: green;
+}
+
+table tr:first-child td:nth-child(2){
+    background-color: red;
+}
+
+
+table tr:nth-child(2) td:nth-child(1){
+    background-color: blue;
+}
+
+table tr:nth-child(2) td:nth-child(2){
+    background-color: red;
+}
+
+table tr:nth-child(2) td:nth-child(3){
+    background-color: yellow;
+}
+
+table tr:nth-child(3) td:first-child{
+    background-color: green;
+}
+
+td{
+    width: 75px;
+    height: 75px;
+}

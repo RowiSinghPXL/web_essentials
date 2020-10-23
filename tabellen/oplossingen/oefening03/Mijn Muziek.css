@@ -1,0 +1,53 @@
+body {
+    font-family: "Roboto Light", Serif;
+    background-color: dimgray;
+    color: white;
+
+}
+.festival_button{
+    border: 2px solid gray;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: white;
+}
+
+
+.festival_button:hover{
+    color: orange;
+    background-color: rgba(241,178,18,.5);
+}
+
+a:hover{
+    font-size: 1.2em;
+
+}
+
+
+main a {
+    border: 2px solid orange;
+}
+
+ul {
+
+}
+
+table{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+tbody tr td:nth-child(1){
+    width: 350px;
+}
+
+#image_row{
+    width: auto; /**/
+}
