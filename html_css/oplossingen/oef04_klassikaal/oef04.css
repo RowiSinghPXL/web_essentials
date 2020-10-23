@@ -1,0 +1,14 @@
+body{
+    background: #d9ddd7;
+    font-family: Verdana, Serif;
+}
+
+.title{
+    color: #0066;
+}
+
+p{
+    background-color: #6a7689;
+    color: white;
+    padding: 20px;
+}

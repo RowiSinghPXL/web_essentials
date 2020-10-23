@@ -1,0 +1,26 @@
+h1{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+div {
+    width: 500px;
+    border: 2px solid #ffe14f;
+    border-radius: 10px;
+    padding: 5px 100px 5px 10px;
+    margin: 8px auto;
+}
+
+div:hover{
+    background-color: #8daec6;
+}
+
+body{
+    background-color: #151c28;
+}
